@@ -1,4 +1,49 @@
-# 💤 LazyVim
+# 🚀 我的 Neovim 配置
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+基於 [LazyVim](https://github.com/LazyVim/LazyVim) 構建的 Neovim 配置。
+
+## 為什麼選擇 LazyVim？
+
+- **不重複造輪子**：LazyVim 已經是一個成熟、經過驗證的配置框架
+- **開箱即用**：內建了現代編輯器該有的功能（LSP、語法高亮、模糊搜索等）
+- **性能優化**：lazy loading 機制確保啟動速度快
+- **易於自定義**：模塊化設計，方便添加或移除功能
+- **社區支持**：活躍的社區和持續更新
+
+## 為什麼要設定 Neovim？
+
+作為開發者，我需要一個：
+- **高效的編輯器**：快速啟動，響應迅速
+- **可自定義的環境**：根據工作流程調整
+- **強大的插件生態**：豐富的功能擴展
+- **跨平台一致性**：在不同機器上保持相同體驗
+
+## 特色功能
+
+- 🔍 強大的模糊搜索（文件、內容、符號）
+- 🌳 直觀的文件瀏覽器
+- 🐛 集成診斷和錯誤處理
+- 📝 智能代碼補全和 LSP 支持
+- 🏃‍♂️ Flash 快速跳轉
+- 📋 高效的緩衝區管理
+- 🌟 Git 集成
+
+## 快速開始
+
+詳細的快捷鍵列表請參考 [keymaps.md](./keymaps.md)。
+
+### 最常用快捷鍵
+
+- `<Space>ff` - 查找文件
+- `<Space>sg` - 全局搜索
+- `<Space>e` - 文件瀏覽器
+- `<Space>,` - 切換緩衝區
+
+## 文檔
+
+- [完整快捷鍵列表](./keymaps.md)
+- [LazyVim 官方文檔](https://lazyvim.github.io/)
+
+---
+
+> **注意**：這個配置會隨著我的需求持續調整和優化。
